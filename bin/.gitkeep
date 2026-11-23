@@ -1,0 +1,2 @@
+﻿此目录用于存放 FHBrowser.exe 与 CEF 运行时（libcef.dll、*.pak、icudtl.dat 等）。
+CEF 二进制体积超过 GitHub 单文件限制，不纳入仓库，请从 Release 附件获取。

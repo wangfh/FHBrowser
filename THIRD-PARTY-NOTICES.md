@@ -14,6 +14,7 @@
 
 ## 2. CEF4Delphi / CEF4Win7（Delphi 绑定）
 
+- 源码：<https://github.com/salvadordf/CEF4Delphi/tree/109.0.5414.120>
 - 用途：Delphi 侧的 CEF 封装（`uCEF*.pas`），编译时通过 `CEF4WIN7` 环境变量引用
   使用者本机的源码目录，**不随本仓库分发**。
 - 仓库内附带文件：`src/cef.inc`（CEF 版本判定包含文件），拷自 CEF4Delphi，

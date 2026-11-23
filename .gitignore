@@ -52,6 +52,13 @@ bugreport.txt
 
 # ---- 内部文档（仅本地，不上传） ----
 /需求.md
+docs/01_UI开发规范.md
+docs/需求文档.md
+
+# ---- 已过时的演示与测试（仅本地，不上传） ----
+demos/
+tests/
+build_all.bat
 
 # ---- 本地工具与临时文件 ----
 .codeartsdoer/
