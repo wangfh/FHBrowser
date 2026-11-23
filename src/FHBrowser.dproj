@@ -40,8 +40,8 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Release>1</VerInfo_Release>
         <Manifest_File>(None)</Manifest_File>
-        <DCC_Define>madExcept;$(DCC_Define)</DCC_Define>
-        <VerInfo_Keys>CompanyName=FHBrowser;FileDescription=飞花浏览器;FileVersion=1.0.1.0;InternalName=FHBrowser;LegalCopyright=© 2026 飞花浏览器;OriginalFilename=FHBrowser.exe;ProductName=飞花浏览器;ProductVersion=1.0.1.0;Comments=轻如飞花，浏览无界</VerInfo_Keys>
+        <DCC_Define>$(DCC_Define)</DCC_Define>
+        <VerInfo_Keys>CompanyName=FHBrowser;FileDescription=飞花浏览器;FileVersion=1.0.0.0;InternalName=FHBrowser;LegalCopyright=© 2026 飞花浏览器;OriginalFilename=FHBrowser.exe;ProductName=飞花浏览器;ProductVersion=1.0.0.0;Comments=轻如飞花，浏览无界</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <BT_BuildType>Debug</BT_BuildType>
