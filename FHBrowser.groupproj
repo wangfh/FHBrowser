@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <!-- FHBrowser 工程组: 组件包 + 浏览器主体 + 组件测试 + 组件演示 -->
+    <ItemGroup>
+        <Projects Include="src\FHChromeTabsPkg.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="browser\FHBrowser.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tests\FHChromeTabsTests.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="demos\FHChromeTabsDemo\FHChromeTabsDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

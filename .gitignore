@@ -1,0 +1,63 @@
+# ---- Delphi 编译产物 ----
+*.dcu
+*.dcp
+*.bpl
+*.bpi
+*.lib
+*.obj
+*.hpp
+*.drc
+*.map
+*.identcache
+*.dproj.local
+*.groupproj.local
+*.local
+*.stat
+*.skincfg
+*.otares
+*.~*
+*.tmp
+*.log
+__history/
+__recovery/
+
+# 平台输出目录（dcu/bpl/exe 落地处）
+Win32/
+Win64/
+Android*/
+iOSDevice*/
+OSX*/
+Linux64/
+dcu/
+
+# 可执行文件（由本机编译产生）
+*.exe
+
+# 可执行资源：由 dproj 的 Icon_MainIcon / VerInfo 生成，图标源在 assets/icon/
+src/FHBrowser.res
+src/FHBrowser_version.res
+
+# ---- 第三方源码（自行放置，不入库） ----
+third_party/
+
+# ---- 运行时目录（CEF 二进制 + 用户数据，绝不入库） ----
+bin/*
+!bin/.gitkeep
+Logs/
+cache/
+UserData/
+settings.ini
+bugreport.txt
+*.db
+
+# ---- 内部文档（仅本地，不上传） ----
+/需求.md
+
+# ---- 本地工具与临时文件 ----
+.codeartsdoer/
+.codebuddy/
+_agent_build.ps1
+_build.ps1
+_probe.txt
+_favcheck.ps1
+新建文本文档.txt

@@ -1,0 +1,21 @@
+# 统一行尾。Pascal 源文件必须是 CRLF + UTF-8 BOM（Delphi 11 中文注释依赖 BOM），
+# 本文件不会改动文件内容里的 BOM，但禁止把行尾规范化成 LF 造成 diff 噪声。
+* text=auto eol=crlf
+
+*.pas text eol=crlf
+*.dpr text eol=crlf
+*.dpk text eol=crlf
+*.inc text eol=crlf
+*.dfm text eol=crlf
+*.rc text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.dproj text eol=crlf
+*.groupproj text eol=crlf
+
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+
+.gitignore text eol=lf
+.gitattributes text eol=lf
