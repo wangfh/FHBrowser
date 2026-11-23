@@ -1,0 +1,31 @@
+#pragma code_page(65001)
+// 飞花浏览器版本资源（关于对话框读取 exe 的 FileVersion 显示软件版本）
+// 注意：当前构建的版本信息由 dproj 的 VerInfo_Keys 生成，本 rc 仅作参考/备用。
+// 备用编译：rc.exe /fo FHBrowser_version.res FHBrowser_version.rc
+// 发版时改 FILEVERSION / PRODUCTVERSION 与 StringFileInfo 里的版本号
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404b0"
+    BEGIN
+      VALUE "CompanyName", "FHBrowser"
+      VALUE "FileDescription", "飞花浏览器"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "FHBrowser"
+      VALUE "LegalCopyright", "Copyright 2026 飞花浏览器"
+      VALUE "OriginalFilename", "FHBrowser.exe"
+      VALUE "ProductName", "飞花浏览器"
+      VALUE "ProductVersion", "1.0.0.0"
+      VALUE "Comments", "轻如飞花，浏览无界"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 0x04b0
+  END
+END

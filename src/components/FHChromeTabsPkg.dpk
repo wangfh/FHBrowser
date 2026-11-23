@@ -1,0 +1,25 @@
+﻿package FHChromeTabsPkg;
+
+{==============================================================================
+  FHChromeTabs 组件包 —— 安装入口（文档 10. 交付物 #1/#2）
+  ----------------------------------------------------------------------------
+  - 起步阶段 runtime+designtime 合一包, 安装即用（右键 Install）;
+    正式分发时再拆 runtime + designtime 双包（见交付物说明）
+  - requires designide 仅因 DesignIntf（RegisterComponents）;
+    组件单元本体逻辑零设计期依赖, Demo 工程直接 uses 编 exe 不受影响
+==============================================================================}
+
+
+requires
+  rtl,
+  vcl,
+  designide;
+
+contains
+  uFHChromeTabs in 'uFHChromeTabs.pas',
+  uFHChromePageHost in 'uFHChromePageHost.pas',
+  uFHBrowserControls in 'uFHBrowserControls.pas',
+  uFHChromeTabsReg in 'uFHChromeTabsReg.pas',
+  uFHChromeMenu in 'uFHChromeMenu.pas';
+
+end.
